@@ -1,0 +1,12 @@
+.layout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.score {
+  position: absolute;
+  font-weight: 700;
+  font-size: 2rem;
+}

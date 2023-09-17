@@ -1,0 +1,33 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  border-radius: 0.8rem;
+  padding: 1.5rem 0.8rem;
+}
+
+.property {
+  font-weight: 700;
+  font-size: 2rem;
+  word-break: break-all;
+}
+
+.value {
+  word-break: break-all;
+  font-weight: 500;
+}
+
+.subproperty {
+  font-size: 1.2rem;
+  word-break: break-all;
+}
+
+.property__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.8rem;
+}
